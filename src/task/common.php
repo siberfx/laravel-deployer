@@ -14,7 +14,7 @@ task('ld:check_strategy', function () {
     }
 })
     ->shallow()
-    ->setPrivate();
+    ->hidden();
 
 /**
  * Get global starting time of deployment.
@@ -25,7 +25,7 @@ task('ld:get_start_time', function () {
 })
     ->local()
     ->shallow()
-    ->setPrivate();
+    ->hidden();
 
 /**
  * @override
@@ -47,7 +47,7 @@ task('success', function () {
 })
     ->local()
     ->shallow()
-    ->setPrivate();
+    ->hidden();
 
 /**
  * @override
@@ -72,7 +72,7 @@ task('deploy:info', function () {
     writeln("✈︎ Deploying $what on <fg=cyan>{{hostname}}</fg=cyan> with <info>{{strategy}}</info> strategy");
 })
     ->shallow()
-    ->setPrivate();
+    ->hidden();
 
 /**
  * @override

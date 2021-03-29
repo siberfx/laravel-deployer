@@ -10,8 +10,7 @@
         }
     ],
     "require": {
-        "deployer/deployer": "^6.1",
-        "deployer/recipes": "^6.0",
+        "deployer/deployer": "^7.0",
         "illuminate/support": "^6.0|^7.0|^8.0"
     },
     "require-dev": {
