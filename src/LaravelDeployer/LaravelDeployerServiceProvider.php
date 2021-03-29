@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Lorisleiva\LaravelDeployer;
 
@@ -10,7 +10,6 @@ class LaravelDeployerServiceProvider extends ServiceProvider
         Commands\Deploy::class,
         Commands\DeployConfigs::class,
         Commands\DeployCurrent::class,
-        Commands\DeployDump::class,
         Commands\DeployHosts::class,
         Commands\DeployInit::class,
         Commands\DeployList::class,

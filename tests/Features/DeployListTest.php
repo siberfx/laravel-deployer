@@ -52,14 +52,6 @@ class DeployListTest extends DeploymentTestCase
         $this->assertStringContainsString('artisan:event:clear', $output);
         $this->assertStringContainsString('artisan:event:cache', $output);
 
-        // Config
-        $this->assertStringContainsString('config:current', $output);
-        $this->assertStringContainsString('config:dump', $output);
-        $this->assertStringContainsString('config:hosts', $output);
-
-        // Debug
-        $this->assertStringContainsString('debug:task', $output);
-
         // Deploy
         $this->assertStringContainsString('deploy:clear_paths', $output);
         $this->assertStringContainsString('deploy:copy_dirs', $output);
