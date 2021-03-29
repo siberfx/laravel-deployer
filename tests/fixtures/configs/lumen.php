@@ -6,7 +6,7 @@ return [
         'application' => env('APP_NAME', 'Laravel'),
         'repository' => '{{repo}}',
         'writable_mode' => 'chmod',
-        'branch' => null,
+        'branch' => 'master',
         'debug' => true,
     ],
 

@@ -10,7 +10,7 @@ return [
         'local_deploy_path' => '{{tmp}}/local_build',
         'local_cache_repository' => '{{repo}}',
         'local_deploy_shared' => false,
-        'branch' => null,
+        'branch' => 'master',
         'debug' => true,
     ],
 
